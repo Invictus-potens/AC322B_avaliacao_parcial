@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/espaco_pequeno"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_imagem_item"
+            android:background="@color/cinza_fundo_imagem">
+
+            <ImageView
+                android:id="@+id/imagemNoticia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/descricao_imagem_noticia"
+                android:scaleType="center"
+                android:src="@drawable/ic_controle" />
+
+            <TextView
+                android:id="@+id/textoCategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_margin="@dimen/espaco_pequeno"
+                android:background="@color/roxo_primario"
+                android:paddingHorizontal="@dimen/espaco_pequeno"
+                android:paddingVertical="@dimen/espaco_minimo"
+                android:textColor="@color/branco"
+                android:textSize="@dimen/texto_categoria"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/espaco_medio">
+
+            <TextView
+                android:id="@+id/textoTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/texto_titulo_item"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espaco_pequeno" />
+
+            <TextView
+                android:id="@+id/textoResumo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/cinza_texto_secundario" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espaco_pequeno" />
+
+            <TextView
+                android:id="@+id/textoData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cinza_texto_secundario"
+                android:textSize="@dimen/texto_categoria" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

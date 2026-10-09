@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Game News</string>
+    <string name="titulo_detalhe">Notícia</string>
+    <string name="autor_formato">Por %1$s</string>
+    <string name="autor_desconhecido">Autor não informado</string>
+    <string name="descricao_imagem_noticia">Imagem da notícia</string>
+    <string name="noticia_nao_encontrada">Notícia não encontrada</string>
+</resources>

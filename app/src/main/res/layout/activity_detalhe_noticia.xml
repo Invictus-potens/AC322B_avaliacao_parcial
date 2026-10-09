@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_imagem_detalhe"
+            android:background="@color/cinza_fundo_imagem">
+
+            <ImageView
+                android:id="@+id/imagemNoticia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/descricao_imagem_noticia"
+                android:scaleType="center"
+                android:src="@drawable/ic_controle" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/espaco_medio">
+
+            <TextView
+                android:id="@+id/textoCategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/roxo_primario"
+                android:paddingHorizontal="@dimen/espaco_pequeno"
+                android:paddingVertical="@dimen/espaco_minimo"
+                android:textColor="@color/branco"
+                android:textSize="@dimen/texto_categoria"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espaco_pequeno" />
+
+            <TextView
+                android:id="@+id/textoTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/texto_titulo_detalhe"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espaco_pequeno" />
+
+            <TextView
+                android:id="@+id/textoAutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cinza_texto_secundario" />
+
+            <TextView
+                android:id="@+id/textoData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cinza_texto_secundario"
+                android:textSize="@dimen/texto_categoria" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espaco_medio" />
+
+            <TextView
+                android:id="@+id/textoConteudo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.3"
+                android:textSize="@dimen/texto_corpo" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

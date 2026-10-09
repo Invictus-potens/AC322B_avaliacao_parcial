@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="espaco_minimo">4dp</dimen>
+    <dimen name="espaco_pequeno">8dp</dimen>
+    <dimen name="espaco_medio">16dp</dimen>
+    <dimen name="altura_imagem_item">160dp</dimen>
+    <dimen name="altura_imagem_detalhe">220dp</dimen>
+    <dimen name="texto_categoria">12sp</dimen>
+    <dimen name="texto_titulo_item">18sp</dimen>
+    <dimen name="texto_titulo_detalhe">22sp</dimen>
+    <dimen name="texto_corpo">16sp</dimen>
+</resources>
