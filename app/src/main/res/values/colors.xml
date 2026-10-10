@@ -4,4 +4,6 @@
     <color name="cinza_fundo_imagem">#FFE0E0E0</color>
     <color name="cinza_texto_secundario">#FF757575</color>
     <color name="branco">#FFFFFFFF</color>
+    <color name="amarelo_favorito">#FFFFC107</color>
+    <color name="fundo_botao_favorito">#99000000</color>
 </resources>

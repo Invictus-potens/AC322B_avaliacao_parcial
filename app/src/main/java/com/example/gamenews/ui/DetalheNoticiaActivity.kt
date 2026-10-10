@@ -7,6 +7,7 @@ import com.example.gamenews.R
 import com.example.gamenews.data.NoticiasMock
 import com.example.gamenews.databinding.ActivityDetalheNoticiaBinding
 import com.example.gamenews.model.Noticia
+import com.example.gamenews.ui.componentes.FavoritoComponente
 
 class DetalheNoticiaActivity : AppCompatActivity() {
 
@@ -40,6 +41,10 @@ class DetalheNoticiaActivity : AppCompatActivity() {
             textoConteudo.text = noticia.conteudo
             textoAutor.text = noticia.autor?.let { getString(R.string.autor_formato, it) }
                 ?: getString(R.string.autor_desconhecido)
+            imagemNoticia.setImageResource(noticia.imagemResId ?: R.drawable.ic_controle)
+
+            val botaoFavorito = FavoritoComponente.inflarEm(containerFavorito)
+            FavoritoComponente.configurar(botaoFavorito, noticia.id)
         }
     }
 

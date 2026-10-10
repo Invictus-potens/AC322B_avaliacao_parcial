@@ -1,10 +1,63 @@
 package com.example.gamenews.data
 
+import com.example.gamenews.R
 import com.example.gamenews.model.Noticia
 
 object NoticiasMock {
 
     val noticias: List<Noticia> = listOf(
+        Noticia(
+            id = 6,
+            titulo = "The best zombie games (part 3)",
+            resumo = "Fechando a série, mais dez jogos que mostram toda a diversidade do gênero zumbi.",
+            conteudo = "Depois de duas listas dedicadas aos mortos-vivos, chegou a hora de pegar os bastões, " +
+                "espingardas e coquetéis molotov uma última vez. Para encerrar essa série, reunimos mais dez jogos " +
+                "que mostram toda a diversidade do gênero, da sobrevivência implacável à ação cooperativa, " +
+                "passando por estratégia, puro horror e até algumas reviravoltas bem originais.\n\n" +
+                "Back 4 Blood expande a fórmula de hordas de zumbis e cooperação para quatro jogadores com um " +
+                "sistema de mapas personalizável. Resident Evil 2 Remake e Resident Evil 4 Remake seguem entre " +
+                "as melhores portas de entrada para o survival horror moderno. Já They Are Billions traz o " +
+                "apocalipse zumbi para os fãs de estratégia, enquanto Dying Light: The Beast mistura parkour e " +
+                "combate brutal em um mundo infestado.",
+            categoria = "Listas",
+            dataPublicacao = "07/10/2026",
+            autor = "Enzo",
+            imagemResId = R.drawable.noticia_zombie_games,
+        ),
+        Noticia(
+            id = 7,
+            titulo = "The Best Mythology Games",
+            resumo = "Uma seleção de jogos que exploram diferentes mitologias ao redor do mundo.",
+            conteudo = "Os jogos eletrônicos também recorrem à mitologia como fonte de inspiração para criar " +
+                "mundos ricos e interessantes, sem necessariamente buscar recriá-los fielmente. Alguns jogos " +
+                "realmente recontam mitos, enquanto outros os usam apenas como inspiração.\n\n" +
+                "Começando pela mitologia grega, God of War III Remastered coloca Kratos para destruir o " +
+                "Monte Olimpo em busca de vingança, enquanto Hades oferece uma abordagem mais leve. " +
+                "Assassin's Creed Origins leva os jogadores ao Egito Antigo, e Raji: An Ancient Epic explora " +
+                "a mitologia hindu. Hellblade: Senua's Sacrifice mistura crenças celtas e nórdicas, e " +
+                "Black Myth: Wukong se destaca na mitologia chinesa.",
+            categoria = "Listas",
+            dataPublicacao = "05/10/2026",
+            autor = "Enzo",
+            imagemResId = R.drawable.noticia_mythology_games,
+        ),
+        Noticia(
+            id = 8,
+            titulo = "The best games from October 2026 (Part 3)",
+            resumo = "Terceira e última parte da seleção dos melhores lançamentos de outubro de 2026.",
+            conteudo = "Chegou a hora de apresentar a terceira e última parte da seleção dos melhores jogos de " +
+                "outubro de 2026, destacando os lançamentos mais interessantes entre os dias 20 e 31 do mês.\n\n" +
+                "Final Fantasy Resonance revisita a estética dos primeiros jogos da saga com um RPG em pixel art. " +
+                "Call of Duty: Modern Warfare 4 leva a série a um conflito global com uma invasão em larga escala " +
+                "da Península Coreana. Já Phantom Blade Zero se destaca como um dos lançamentos mais aguardados, " +
+                "um RPG de ação inspirado em wuxia com combate veloz e visual cinematográfico feito em " +
+                "Unreal Engine 5.\n\nNa frente de DLCs, Farming Simulator 25 recebe a expansão Beans & Alpacas, " +
+                "ambientada em uma região inspirada na América do Sul.",
+            categoria = "Lançamentos",
+            dataPublicacao = "02/10/2026",
+            autor = "Enzo",
+            imagemResId = R.drawable.noticia_october_games,
+        ),
         Noticia(
             id = 1,
             titulo = "Novo RPG de mundo aberto ganha data de lançamento",

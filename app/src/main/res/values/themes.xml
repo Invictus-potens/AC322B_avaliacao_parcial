@@ -1,5 +1,5 @@
 <resources>
-    <style name="Theme.GameNews" parent="Theme.Material3.Light.DarkActionBar">
+    <style name="Theme.GameNews" parent="Theme.Material3.Light">
         <item name="colorPrimary">@color/roxo_primario</item>
         <item name="colorSecondary">@color/verde_destaque</item>
     </style>

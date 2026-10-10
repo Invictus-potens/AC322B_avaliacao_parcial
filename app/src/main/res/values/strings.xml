@@ -5,4 +5,6 @@
     <string name="autor_desconhecido">Autor não informado</string>
     <string name="descricao_imagem_noticia">Imagem da notícia</string>
     <string name="noticia_nao_encontrada">Notícia não encontrada</string>
+    <string name="adicionar_favorito">Adicionar aos favoritos</string>
+    <string name="remover_favorito">Remover dos favoritos</string>
 </resources>

@@ -8,4 +8,5 @@ data class Noticia(
     val categoria: String,
     val dataPublicacao: String,
     val autor: String? = null,
+    val imagemResId: Int? = null,
 )
