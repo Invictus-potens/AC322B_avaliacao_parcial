@@ -1,4 +1,4 @@
-# GameNews
+# GameNews - Felipe Ortiz Muniz de Melo - 843689
 
 Aplicativo Android (Kotlin) de demonstração que exibe uma lista de notícias sobre jogos, permite marcar favoritos e ver o detalhe de cada notícia. Os dados são mockados localmente (sem backend).
 
@@ -80,11 +80,7 @@ gradlew.bat compileDebugKotlin
 3. **Abrir detalhe**: toque em qualquer card (fora do botão de favorito) — abre `DetalheNoticiaActivity` com categoria, título, autor, data, imagem e o texto completo da notícia.
 4. **Voltar**: use o botão de voltar da toolbar ou o botão de voltar do sistema para retornar à lista; o estado de favorito deve ser mantido.
 5. **Notícias reais incluídas**: as notícias de id 6, 7 e 8 foram coletadas do blog da Instant Gaming (https://www.instant-gaming.com/en/blog/) como exemplo de conteúdo "real" misturado ao mock:
-   - "The best zombie games (part 3)"
+   - "The best zombie games"
    - "The Best Mythology Games"
-   - "The best games from October 2026 (Part 3)"
+   - "The best games from October 2026"
 
-## Observações
-
-- Não há persistência (banco de dados ou SharedPreferences): ao fechar e reabrir o app, os favoritos são resetados, pois `FavoritosRepository` guarda tudo em memória.
-- Não há chamadas de rede: todas as notícias e imagens são estáticas, embutidas no APK — ideal para demonstração sem depender de backend ou internet em tempo de execução.
